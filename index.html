@@ -1,52 +1,121 @@
-Código do HTML
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pedro</title>
+<title>Dinossauros - Gigantes Pré-Históricos</title>
+
 <style>
-header{
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #d9d9d9;
+}
+
+header {
 background-color: #819c99;
-color:#beb8b8;
+color: #beb8b8;
 text-align: center;
 max-width: 800px;
-margin: 0 auto;
-border: solid#819c99;
+margin: 20px auto 0;
+border: solid 1px #819c99;
 padding: 16px;
-
-
 }
-main{
-background-color: #24302b;;
-color: 5px solid #cf1010;
+
+main {
+background-color: #24302b;
+color: white;
 max-width: 800px;
-margin: 0 auto;
-}
-img{
-width: 450px;
-
-}
-div p{
-
-
+margin: 0 auto 20px;
+padding: 20px;
+border-radius: 8px;
 }
 
-.artigo-autor{
-font-weight: bold
-
-
+img {
+max-width: 100%;
+height: auto; /* <-- Correção importante */
+border-radius: 8px;
+margin: 10px 0;
 }
-       </style>
+
+.conteudo {
+line-height: 1.8;
+}
+
+.artigo-autor {
+font-weight: bold;
+margin-top: 20px;
+color: #a8c4c0;
+}
+
+button {
+font-size: 24px;
+padding: 8px 16px;
+background-color: #819c99;
+color: white;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+margin-top: 15px;
+}
+
+button:hover {
+background-color: #5f7a77;
+}
+</style>
 </head>
+
 <body>
-    <header>
-    <h1>futebol</h1>
-    <P>eu vou fala sobre as regras do futebol e os melhores jogadores dos tempos</P>
-    </header>
-    <h2>você conhece as regras do futebol?</h2>
-    <p>As regras do futebol são padronizadas pela International Football Association Board (IFAB) e organizadas em 17 regras oficiais.
- <p>KAUAN</p>
- <main></main>
+
+<header>
+<h1>Dinossauros - Gigantes Pré-Históricos</h1>
+<img src="Gemini_Generated_Image_fk0eoifk0eoifk0e.png"
+alt="futebol">
+</header>
+
+<main>
+<div class="conteudo">
+<p><strong>Por um fã de futebol</strong></p>
+
+<p>
+       As regras do futebol oficiais são divididas em 17 tópicos principais, destacando-se o tempo de jogo, o número de jogadores e o impedimento.
+       Estrutura e Dinâmica da PartidaDuração do jogo: São dois tempos de 45 minutos cada, com um intervalo de 15 minutos. O árbitro pode adicionar 
+       tempo extra (acréscimos) para compensar paradas.Número de jogadores: Cada equipe joga com 11 jogadores em campo, sendo um deles o goleiro. O 
+       limite máximo de substituições varia conforme o campeonato.Início e reinício: A partida começa com um chute no círculo central do campo. O 
+       mesmo acontece após a marcação de um gol.Infrações e PuniçõesImpedimento: Um jogador atacante está em posição irregular se estiver mais 
+       próximo da linha de fundo adversária do que a bola e o penúltimo adversário (contando com o goleiro) no momento em que recebe o passe.Faltas
+       e cartões: Chutar, empurrar, dar rasteiras ou tocar a bola com as mãos intencionalmente (exceto o goleiro dentro da sua área) gera tiro livre.
+       Faltas graves são punidas com cartão amarelo (advertência) ou vermelho (expulsão direta).Pênalti: Se uma falta 
+       que resulta em tiro livre direto for cometida por um defensor dentro da sua própria grande área, é marcado um pênalti (cobrança direta a 11 metros do gol).
+</p>
+
+<h2>alguns dos melhores jogadores de futebol</h2>
+
+<p>
+      Pelé: O único tricampeão mundial da história (1958, 1962 e 1970) e o maior embaixador do esporte, com gols decisivos e genialidade incomparável na seleção 
+      brasileira.
+      Lionel Messi: Dono de múltiplos prêmios de melhor do mundo e recordes de gols, coroou sua carreira com a Copa do Mundo de 2022 pela Argentina.
+      Diego Maradona: O ícone argentino que encantou o mundo na Copa de 1986, famoso por sua habilidade mágica com a bola nos pés e liderança em campo.
+      Cristiano Ronaldo: Uma lenda moderna e máquina de fazer gols, recordista na Liga dos Campeões e principal nome da história de Portugal.
+      Johan Cruyff: O maestro do Futebol Total, que mudou para sempre a forma de jogar e pensar o futebol taticamente tanto como atleta quanto como treinador.
+</p>
+
+<p class="artigo-autor">Por: Kauan</p>
+<button>👍🏻<span>0</span></button>
+<button>👎🏻</button>
+</div>
+</main>
+
 </body>
+<script>
+const botao = document.querySelector("button");//variável para acessar o botão.
+botao.addEventListener("click", botaoClicado);//quando acontecer um clique, será executada uma função chamada botaoClicado.
+ botoes.foreach(ficntion(botao){})
+function botaoClicado() { //cria uma função chamada botaoClicado.
+console.log("fui clicado");// exibe uma mensagem no console.
+let texto = botao.querySelector("span");////seleciona o elemento "span" que esta dentro do botão e o guarda na variavel texto.
+texto.textContent++;// soma 1 ao valor atual. Assim, o contador aumenta a cada clique.
+
+}
+</script>
 </html>
